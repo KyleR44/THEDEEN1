@@ -1,0 +1,31 @@
+<link rel="stylesheet" href="/css/calchome.css">
+  <form class="info" action="/calcHome" method="POST">
+                    <!-- connect in routes ^^^^^^^^^^^^ -->
+    <div class="datesInfo">
+      <input type="date" name="startDate">
+      <input type="date" name="endDate">
+    </div>
+    <div class="towns">
+      <select class="city" name="cities">
+        <option value="BOS">Boston</option>
+        <option value="LAX">Los Angeles</option>
+        <option value="NYC">New York City</option>
+      </select>
+      <button id="enter" type="submit" name="button">Submit</button>
+    </div>
+  </form>
+<div class="answer">
+
+    <% if (typeof money !== 'undefined') { %>
+    <h2>Flight Estimate</h2>
+    <h3 class="flightEst"><%= money %></h3>
+    <h2>12 Month Breakdown</h2>
+    <h3 class="monthlybrk"><%= monthly %></h3>
+  <% } %>
+</div>
+   <span> <a href="/logout"> Sign Out <i class="fas fa-sign-out-alt"> </i> </a> </span>
+  			<a href="/chat" <span>The Chatroom<i class="fas fa-arrow-circle-right"></i></span> </a>
+</div>
+<script src="js/calc.js">
+
+</script>

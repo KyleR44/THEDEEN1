@@ -1,0 +1,51 @@
+ body{
+  background: url('http://www.greenlanemasjid.org/wp-content/uploads/2016/04/understanding-islam-1024x576.jpg ');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.datesInfo{
+ border: 2px solid black;
+  height: 400px;
+  width: 300px;
+  background: rgba(17, 2, 3, 0.5);
+    width: 280px;
+    height: 280px;
+    /* background: url('https://ununsplash.imgix.net/photo-1427434846691-47fc561d1179?dpr=2&fit=crop&fm=jpg&h=700&q=75&w=1050') center no-repeat; */
+   background-size: cover;
+     clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+    animation: clips 7s ease infinite;
+  }
+
+  @keyframes clips {
+    50% {
+  clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%)
+    }
+  }
+
+/* Center the demo */
+html, body { height: 100%; }
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+  background-color: #333;
+}
+}
+.towns{
+  border: 2px solid black;
+  height: 100px;
+  width: 300px;
+  background: rgba(17, 2, 3, 0.5);
+}
+
+.answer{
+  border: 2px solid black;
+  height: 300px;
+  width: 300px;
+  background: rgba(17, 2, 3, 0.5);
+}

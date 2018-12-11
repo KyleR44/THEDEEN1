@@ -1,0 +1,100 @@
+/* .homie{
+  border: 2px solid black;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+} */
+
+/* #title{
+  text-align: center;
+  font-size: 219px;
+  height: 113px;
+  width: 1700px;
+  margin: -5px 0px 0px 124px;
+}
+} */
+
+/* h3{
+  text-align: center; */
+
+/* .top{ */
+  /* background-image:  url('https://www.ilmcentre.net/wp-content/uploads/2017/07/the-first-pillar-of-islam.jpg'); */
+  /* background-repeat: no-repeat;
+  background-size: contain;
+  height: 300px;
+  width: 100%;
+} */
+
+.signin1{
+  font-size: 40px;
+}
+
+.signup1{
+  font-size: 40px;
+  float: left;
+  margin: 0px 30px 0px 0px 
+}
+
+
+
+.middle{
+  height: 100px;
+  width: 100%;
+
+}
+.btm{
+  height: 100px;
+  width: 100%;
+
+}
+@keyframes tipsy {
+  0 {
+    transform: translateX(-50%) translateY(-50%) rotate(0deg);
+  }
+  100% {
+    transform: translateX(-50%) translateY(-50%) rotate(360deg);
+  }
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  background-color: #2e2e31;
+}
+
+.homes {
+  color: #fffbf1;
+  text-shadow: 0 20px 25px #2e2e31, 0 40px 60px #2e2e31;
+  font-size: 80px;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: -3px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.homes:before,
+.homes:after {
+  content: '';
+  padding: .9em .4em;
+  position: absolute;
+  left: 50%;
+  width: 100%;
+  top: 50%;
+  display: block;
+  border: 15px solid red;
+  transform: translateX(-50%) translateY(-50%) rotate(0deg);
+  animation: 10s infinite alternate ease-in-out tipsy;
+}
+
+.homes:before {
+  border-color: #d9524a #d9524a rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+  z-index: -1;
+}
+
+.homes:after {
+  border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #d9524a #d9524a;
+  box-shadow: 25px 25px 25px rgba(46, 46, 49, .8);
+}
